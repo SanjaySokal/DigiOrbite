@@ -16,11 +16,11 @@ function Run() {
       }
     })
 
-    if (!document.querySelector("#navbarText").classList.contains("show")) {
-      console.log("Hi, Welcome to DigiOrbite.");
-    } else {
-      document.querySelector(".navbar-nav button").click();
-    }
+    // if (!document.querySelector("#navbarText").classList.contains("show")) {
+    //   console.log("Hi, Welcome to DigiOrbite.");
+    // } else {
+    //   document.querySelector(".navbar-nav button").click();
+    // }
 
     if (window.location.pathname === "/") {
       header.classList.add("fixed");

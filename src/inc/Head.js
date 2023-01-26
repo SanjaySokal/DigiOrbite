@@ -5,6 +5,7 @@ import img2 from '../images/white-logo.png';
 
 const Head = () => {
     const [header, setHeader] = useState(<></>);
+
     useEffect(() => {
         if (window.innerWidth > 991) {
             setHeader(
