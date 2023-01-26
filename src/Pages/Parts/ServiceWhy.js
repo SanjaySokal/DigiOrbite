@@ -18,10 +18,10 @@ const ServiceWhy = () => {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-7">
+                    <div className="col-lg-7 col-md-12">
                         <img src={img} className="w-100" title='Why Choose DigiOrbite?' alt="Why Choose DigiOrbite?" />
                     </div>
-                    <div className="col-md-5">
+                    <div className="col-lg-5 col-md-12">
                         <div className="icons-why">
                             <ServiceIcon p="Proin ac semper eu suspendisse sed sit ut. Sed erat massa rutrum curabitur purus nisl pharetra." h2="customer support" img={img2} />
                             <ServiceIcon p="Proin ac semper eu suspendisse sed sit ut. Sed erat massa rutrum curabitur purus nisl pharetra." h2="customer support" img={img3} />

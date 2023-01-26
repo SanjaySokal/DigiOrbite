@@ -1647,17 +1647,17 @@ footer .bottom-address.bg-green .links {
   font-size: 22px;
 }
 
-.locations-contact .col-md-4:nth-child(1) .location {
+.locations-contact .col-md-6:nth-child(1) .location {
   background: url(./images/aus.jpg) no-repeat -465px;
   background-size: 1250px;
 }
 
-.locations-contact .col-md-4:nth-child(2) .location {
+.locations-contact .col-md-6:nth-child(2) .location {
   background: url(./images/usa.png) no-repeat -240px 0;
   background-size: 995px;
 }
 
-.locations-contact .col-md-4:nth-child(3) .location {
+.locations-contact .col-md-6:nth-child(3) .location {
   background: url(./images/canada.jpg) no-repeat center center;
   background-size: 860px;
 }
@@ -2896,5 +2896,115 @@ footer .bottom-address.bg-green .links {
 
   .service-banner img {
     margin-top: 35px;
+  }
+
+  .how-row {
+    flex-wrap: wrap;
+  }
+
+  .how-row .how-col {
+    flex: 0 0 50%;
+  }
+
+  .how-row .how-col::after {
+    display: none;
+  }
+
+  .industry-row {
+    flex-wrap: wrap;
+  }
+
+  .service-banner-content {
+    text-align: center;
+  }
+
+  .inner-service-banner .background .btn {
+    margin-top: 15px;
+    margin-bottom: 35px;
+  }
+
+  .tech-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tech-row .tech-col {
+    flex: 0 0 25%;
+    margin-bottom: 25px;
+  }
+
+  .service-about-content h3 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  .service-inner .item .image-background {
+    background-size: 100%;
+    background-position: center center;
+    justify-content: center;
+    padding: 20px 50px;
+  }
+
+  .service-inner .item .image-background .inner-box {
+    width: 100%;
+  }
+
+  .service-inner-center {
+    padding: 30px 0;
+  }
+
+  .service-inner-center h2 {
+    font-size: 30px;
+  }
+
+  .page-banner .about-left h4 {
+    font-size: 27px;
+  }
+
+  .page-banner .about-left p {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .boxes {
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-top: 0;
+  }
+
+  .boxes .box {
+    width: 300px;
+    margin-bottom: 15px;
+  }
+
+  .connect h2 {
+    top: -100px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 40px;
+  }
+
+  .contact-row {
+    flex-wrap: wrap;
+  }
+
+  .contact-row .contact-col {
+    flex: 0 0 100% !important;
+  }
+
+  .contact-row .contact-col:last-child {
+    padding: 70px 35px 35px 120px;
+  }
+
+  .location .image .links a {
+    font-size: 16px;
+  }
+
+  .location .image {
+    padding: 35px 38px 0 38px;
+  }
+
+  .locations-contact .location {
+    margin-bottom: 25px;
   }
 }

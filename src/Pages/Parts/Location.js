@@ -2,7 +2,7 @@ import React from 'react';
 
 const Location = (props) => {
     return (
-        <div className='col-md-4'>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
             <div className="location">
                 <div className="image">
                     <p>

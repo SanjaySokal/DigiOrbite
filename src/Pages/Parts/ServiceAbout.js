@@ -6,10 +6,10 @@ const ServiceAbout = (props) => {
         <section>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-lg-6 col-md-12">
                         <img src={props.img} className='w-100' title='DigiOrbite Service' alt="DigiOrbite Service" />
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-lg-6 col-md-12">
                         <div className="service-about-content">
                             <h3>{props.h3}</h3>
                             <p>{props.p}</p>
