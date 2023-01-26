@@ -3008,3 +3008,179 @@ footer .bottom-address.bg-green .links {
     margin-bottom: 25px;
   }
 }
+
+@media (max-width:768px) {
+  .member-row {
+    flex-wrap: wrap;
+  }
+
+  .member-row .member-col {
+    flex: 0 0 100%;
+  }
+
+  .member .content .details p {
+    font-size: 28px;
+  }
+
+  .member .content .details h3 {
+    font-size: 14px;
+  }
+
+  .who-we-are h1 {
+    font-size: 44px;
+  }
+
+  .who-we-are p {
+    font-size: 14px;
+  }
+
+  .service .col-md-4 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+  }
+
+  .service .service-sec {
+    margin: 60px 0;
+  }
+
+  .sec-2 .clients {
+    flex-wrap: wrap;
+  }
+
+  .sec-2 .clients .about {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+
+  .sec-2 .clients .about .quote {
+    margin-top: 0;
+    padding-left: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .sec-2 .clients .about .quote i {
+    position: initial;
+  }
+
+  .sec-2 .clients .image {
+    display: none;
+  }
+
+  .faq-icons .icons {
+    flex-wrap: wrap;
+  }
+
+  .faq-icons .icons .icon {
+    margin-right: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    height: 80px;
+    max-width: 100%;
+  }
+
+  .about-img .image-here .image-content .image-about-box {
+    width: 250px;
+  }
+
+  .about-img .image-here {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 29.65%, rgba(255, 255, 255, 0) 50%), url(./images/about-background-top.jpg) 0 -330px;
+  }
+
+  .about-top-img {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-top-img .image {
+    flex: 0 0 33.333%;
+  }
+
+  .about-top-img .image:nth-child(3):after {
+    display: none;
+  }
+
+  .service.about .col-md-4 {
+    flex: 0 0 100%;
+  }
+
+  .service.about .service-sec {
+    margin: 0;
+    padding: 50px 20px !important;
+  }
+
+  .tabs-about .nav.nav-tabs .nav-item .nav-link::before {
+    right: -20px;
+  }
+
+  .service-banner h2 {
+    font-size: 40px;
+  }
+
+  .connect h2 {
+    top: -70px;
+    padding-left: 20px;
+    font-size: 30px;
+  }
+
+  .boxes .box {
+    width: 250px;
+  }
+
+  .location .image .links a {
+    font-size: 28px;
+  }
+
+  .service-inner .item .image-background {
+    background-size: cover;
+  }
+
+  .service-inner-center {
+    padding: 30px 20px;
+    border-radius: 10px;
+  }
+
+  .service-inner-center h2 {
+    font-size: 24px;
+  }
+
+  .service-inner-center p {
+    font-size: 13px;
+  }
+
+  .service-about-content p {
+    font-size: 16px;
+  }
+
+  .service-about-content h3 {
+    margin-top: 20px;
+  }
+
+  .location-banner .images-row .images-col:first-child,
+  .location-banner .images-row .images-col:last-child {
+    display: none;
+  }
+
+  footer .about .company {
+    padding: 30px 60px;
+  }
+
+  footer .about .links {
+    padding: 30px 70px;
+  }
+}
+
+@media (max-width:600px) {
+  footer .about .links {
+    padding: 30px 30px;
+  }
+
+  footer .bottom-address .address p {
+    text-align: center;
+  }
+
+  footer .bottom-address.bg-green .links {
+    margin: 0 auto;
+  }
+}
