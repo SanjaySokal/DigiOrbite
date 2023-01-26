@@ -16,7 +16,9 @@ function Run() {
       }
     })
 
-    if (document.querySelector(".navbar-collapse.collapse").classList.contains("show")) {
+    if (!document.querySelector("#navbarText").classList.contains("show")) {
+      console.log("Hi, Welcome to DigiOrbite.");
+    } else {
       document.querySelector(".navbar-nav button").click();
     }
 
