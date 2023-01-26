@@ -2854,4 +2854,47 @@ footer .bottom-address.bg-green .links {
     top: 10%;
     right: 15%;
   }
+
+  .about-img .image-here .image-content {
+    flex-wrap: wrap;
+  }
+
+  .about-img .image-here .image-content .image-about-box {
+    width: 300px;
+  }
+
+  .about-img .image-here .image-content .image-about-box {
+    margin-right: 0;
+  }
+
+  .about-img .image-here .image-content::before {
+    height: 400px;
+  }
+
+  .service.about .col-md-4 {
+    flex: 0 0 50%;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .about-digi .content p:not(.vision) {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  .about-digi .content {
+    margin-bottom: 30px;
+  }
+
+  .tabs-about .nav.nav-tabs .nav-item .nav-link::before {
+    right: -50px;
+  }
+
+  .service-banner h2 {
+    font-size: 60px;
+  }
+
+  .service-banner img {
+    margin-top: 35px;
+  }
 }

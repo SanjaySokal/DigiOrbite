@@ -7,7 +7,7 @@ const AboutDigi = () => {
         <section>
             <div className="container about-digi">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-12 col-lg-6">
                         <div className="content">
                             <p className="vision">
                                 Our Vision
@@ -26,7 +26,7 @@ const AboutDigi = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-12 col-lg-6">
                         <div className="image">
                             {/* <div className="name">Mr. Bharat Sachdeva <span>CEO - DigiOrbite</span></div> */}
                             <div className="img">

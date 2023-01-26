@@ -7,7 +7,7 @@ const ServiceBanner = () => {
         <section className='service-banner'>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-12 col-lg-6">
                         <h2>
                             Fast and easy way <br /> to make your service <br /> top rank.
                         </h2>
@@ -18,7 +18,7 @@ const ServiceBanner = () => {
                             GET IN TOUCH <i className="fa-solid fa-arrow-right"></i>
                         </Link>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-12 col-lg-6">
                         <img className='w-100' src={img} title='DigiOrbite Services' alt="DigiOrbite Services" />
                     </div>
                 </div>

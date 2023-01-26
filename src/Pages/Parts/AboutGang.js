@@ -9,16 +9,16 @@ const AboutGang = () => {
             <Heading para="know more" h2="about our Gang members" />
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-6 col-lg-3">
                         <Member img={img} name="“Andrew Tate”" about="Full stack Developer" />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-6 col-lg-3">
                         <Member img={img} name="“Andrew Tate”" about="Full stack Developer" />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-6 col-lg-3">
                         <Member img={img} name="“Andrew Tate”" about="Full stack Developer" />
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-6 col-lg-3">
                         <Member img={img} name="“Andrew Tate”" about="Full stack Developer" />
                     </div>
                 </div>

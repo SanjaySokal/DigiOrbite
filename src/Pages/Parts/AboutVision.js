@@ -7,10 +7,10 @@ const AboutVision = () => {
         <section>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-12 col-lg-6">
                         <img src={img} className="w-100" title='DigiOrbite' alt="DigiOrbite" />
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-12 col-lg-6">
                         <div className='tabs-about'>
                             <ul className="nav nav-tabs" id="myTab" role="tablist">
                                 <li className="nav-item" role="presentation">
