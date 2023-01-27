@@ -8,7 +8,7 @@ const AboutVision = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 col-lg-6">
-                        <img src={img} className="w-100" title='DigiOrbite' alt="DigiOrbite" />
+                        <img src={img} className="w-100 sm-n" title='DigiOrbite' alt="DigiOrbite" />
                     </div>
                     <div className="col-md-12 col-lg-6">
                         <div className='tabs-about'>

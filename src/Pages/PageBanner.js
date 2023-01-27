@@ -28,7 +28,7 @@ const PageBanner = (props) => {
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
-                        <img src={props.img} className="w-100" title='About DigiOrbite' alt="About DigiOrbite" />
+                        <img src={props.img} className="w-100 mt-sm" title='About DigiOrbite' alt="About DigiOrbite" />
                     </div>
                 </div>
             </div>
