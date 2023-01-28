@@ -3505,3 +3505,20 @@ footer .bottom-address.bg-green .links {
     margin-top: 15px;
   }
 }
+
+@media (max-width:560px) {
+  .navbar-collapse .navbar-nav.m-auto button {
+    width: 50px;
+    height: 40px;
+    right: 15px;
+    top: 30px;
+  }
+
+  .nav-link .black {
+    width: 250px;
+  }
+
+  nav .social-section {
+    margin-top: 15px;
+  }
+}
