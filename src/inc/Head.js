@@ -56,6 +56,15 @@ const Head = () => {
                         <li className="nav-item">
                             <Link className="nav-link" to="/contact">Contact us</Link>
                         </li>
+                        <li className="nav-item mt-3">
+                            <Link className="nav-link" to="/contact"><i className="fa-solid fa-phone"></i> +0123456789</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/contact"><i className="fa-solid fa-phone"></i> +0123456789</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/contact"><i className="fa-solid fa-phone"></i> +0123456789</Link>
+                        </li>
                         <div className="d-flex">
                             <Link to={'/contact'} className="btn btn-primary">GET IN TOUCH <i className="fa-solid fa-arrow-right"></i></Link>
                         </div>
@@ -125,6 +134,15 @@ const Head = () => {
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact">Contact us</Link>
+                            </li>
+                            <li className="nav-item mt-3">
+                                <Link className="nav-link" to="/contact"><i className="fa-solid fa-phone"></i> +0123456789</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/contact"><i className="fa-solid fa-phone"></i> +0123456789</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/contact"><i className="fa-solid fa-phone"></i> +0123456789</Link>
                             </li>
                             <div className="d-flex">
                                 <Link to={'/contact'} className="btn btn-primary">GET IN TOUCH <i className="fa-solid fa-arrow-right"></i></Link>

@@ -2717,6 +2717,10 @@ footer .bottom-address.bg-green .links {
     margin-top: 30px;
   }
 
+  .nav-link .black {
+    width: 250px;
+  }
+
   .banner {
     padding: 90px 0 70px 0;
   }
@@ -2817,8 +2821,7 @@ footer .bottom-address.bg-green .links {
 
   .navbar-collapse .navbar-nav.m-auto {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 10px;
     background-color: #fff;
     position: fixed;
     top: 0 !important;
@@ -2829,6 +2832,20 @@ footer .bottom-address.bg-green .links {
     z-index: 999999999999999999;
   }
 
+  header nav .nav-item .nav-link {
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  header nav .d-flex {
+    padding-left: 15px;
+  }
+
+  nav .social-section {
+    margin-top: 25px;
+    justify-content: flex-start;
+  }
+
   .navbar-collapse.show .navbar-nav.m-auto {
     left: 0 !important;
     right: 0% !important;
@@ -2836,7 +2853,7 @@ footer .bottom-address.bg-green .links {
   }
 
   .navbar-collapse .navbar-nav.m-auto .nav-item {
-    margin: 5px auto;
+    margin: 5px;
   }
 
   .navbar-collapse .navbar-nav.m-auto .nav-item .nav-link {
@@ -3512,13 +3529,5 @@ footer .bottom-address.bg-green .links {
     height: 40px;
     right: 15px;
     top: 30px;
-  }
-
-  .nav-link .black {
-    width: 250px;
-  }
-
-  nav .social-section {
-    margin-top: 15px;
   }
 }
