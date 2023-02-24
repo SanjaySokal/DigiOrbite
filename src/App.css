@@ -241,7 +241,17 @@ nav .nav-item .nav-link:focus {
   display: inline-block;
   font-weight: 900;
   position: relative;
-  border-bottom: 5px solid #097277;
+}
+
+.heading h2::after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 5px;
+  background-color: #097277;
+  left: 50%;
+  bottom: -7px;
+  transform: translateX(-50%);
 }
 
 .sub-service {
@@ -3521,6 +3531,11 @@ footer .bottom-address.bg-green .links {
 
   .service-inner .item .image-background .inner-box .company {
     margin-top: 15px;
+  }
+
+
+  .heading h2::after {
+    bottom: -5px;
   }
 }
 
