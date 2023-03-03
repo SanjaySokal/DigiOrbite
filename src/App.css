@@ -3542,6 +3542,7 @@ footer .bottom-address.bg-green .links {
 
   .heading h2::after {
     bottom: -5px;
+    width: 100px;
   }
 }
 
